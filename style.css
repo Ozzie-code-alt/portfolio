@@ -2,21 +2,40 @@
     margin: 0;
     padding: 0;
 }
-
-
+#icon{
+    width: 100px;
+    cursor: pointer;
+}
+#album{
+    width:300px;
+    margin-left: 66rem;
+    margin-top: -13rem;
+    margin-bottom: 1.2rem;
+}
+audio{
+    margin-left: 66rem;
+    
+    
+}
+.right{
+    position:absolute;
+    margin-left: 60rem;
+    margin-top: 14rem;
+}
 .hero{
     position: relative;
 
 }
 
-nav{
-    font-family: "Lucida Console" ;
+nav{  
+   font-size: 30px;
     display: flex;
-    width: 75%;
-    margin: auto;
-    padding:20px 0;
+    width: 70%; 
+    margin-left:23rem ;
+    padding:40px 0;
     align-items:center;
     justify-content: space-between ;
+    position: absolute;
     
 }
 
@@ -30,44 +49,31 @@ nav ul li a{
     text-decoration: none;
     color: #000;
     font-weight: bold;
-
 }
 
-nav ul li a:hover{
-    color:goldenrod;
-}
 .detail{
     margin-left: 5%;
     margin-top: -30%;
 }
 
 .detail h1{
-    font-size: 20px;
-    color:lightslategray;
+    font-size: 40px;
+    color:rgb(233, 8, 8);
     margin-bottom: 20px;
 
 }
 
 span{
-    color:goldenrod;
+    color: rgb(182, 89, 26);;
 }
 .detail p {
-    color:lightslategray;
+    color:rgb(133, 41, 41);
     line-height: 22px;
-}
-.detail a{
-    background: #212121; 
-    padding:10px 18px;
-    text-decoration: none;
-    font-weight: bold;
-    color: whitesmoke;
-    display: inline-block ;
-    margin: 30px;
-    border-radius: 5px ;
+    font-size: 20px;
 }
 
 .animation{
-        background: linear-gradient(to left, #5b4963, #5b39376f);
+        background: linear-gradient(to bottom, #252325, #b4827f6f);
         width: 100%;
         height: 100vh
 }
@@ -110,6 +116,7 @@ span{
     width:100px;
     height:100px;
     animation-delay:5.5s;
+    animation-duration: 10s;
 }
 .Box li:nth-child(4){
     left:42%;
@@ -124,6 +131,7 @@ span{
     width:40px;
     height:40px;
     animation-delay:0s;
+    animation-duration: 10s;
 }
 .Box li:nth-child(6){
     left:55%;
