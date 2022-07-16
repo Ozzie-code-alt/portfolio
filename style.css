@@ -11,6 +11,8 @@
     margin-left: 66rem;
     margin-top: -13rem;
     margin-bottom: 1.2rem;
+      border-radius: 15px;
+    box-shadow: 0 20px 20px 0 rgba(252,169, 169, 0.6);
 }
 audio{
     margin-left: 66rem;
